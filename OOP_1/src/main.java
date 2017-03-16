@@ -3,6 +3,8 @@
  */
 public class main {
     public static void main(String args[]){
-        System.out.println("Hello, world!");
+        String sText = "Testwert";
+        sText = sText.substring(0,3);
+        System.out.println(sText);
     }
 }
