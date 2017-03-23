@@ -8,12 +8,15 @@ public class main {
 
         fahrzeug1.ps = 120;
         fahrzeug1.hersteller = "Ford";
+        auto.anzahl++;
 
         fahrzeug2.ps = 80;
         fahrzeug2.hersteller = "VW";
+        auto.anzahl++;
 
         System.out.println("Auto: " + fahrzeug1.hersteller + " mit ps:" + fahrzeug1.ps);
         System.out.println("Auto: " + fahrzeug2.hersteller + " mit ps:" + fahrzeug2.ps);
+
     }
 }
 
