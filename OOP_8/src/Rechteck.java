@@ -1,0 +1,1 @@
+/** * Created by rkassebo on 03.05.2017. */public class Rechteck extends GeometrischeFigur{    protected double a;    protected double b;    public Rechteck(double a, double b) {        this.a = a;        this.b = b;    }    protected double berechneFlaeche(){        return 2 * a + 2 * b;    }    protected double berechneUmfang(){        return 0.0;    }}
